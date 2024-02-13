@@ -1,0 +1,176 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*------------------------------------------------------------------*/
+
+header
+{
+    padding: 40px 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+}
+
+.titre
+{
+    color: #3563E9;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+/*------------------------------------------------------------------*/
+
+.content
+{
+    background-color: #F6F7F9;
+    width: 100%;
+}
+
+.favoriContent
+{
+    padding: 34px 64px 42px;
+}
+
+.recommandéesContent
+{
+    padding-left: 64px;
+    padding-bottom: 24px;
+}
+
+.voitures
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    gap: 32px;
+}
+
+.vTitre
+{
+    color: #90A3BF;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+
+    margin-bottom: 30px;
+}
+
+/*------------------------------------------------------------------*/
+
+.boite
+{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.hautBoite
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.middleBoite
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.basBoite
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+/*------------------------------------------------------------------*/
+
+.titreBoite
+{
+    color: #1A202C;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.sousTitreBoite
+{
+    color: #90A3BF;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/*------------------------------------------------------------------*/
+
+.imgVoiture
+{
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------------------------------------------*/
+
+.icones
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subIcone
+{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.info
+{
+    color: #90A3BF;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/*------------------------------------------------------------------*/
+
+.bouton
+{
+    background: #3563E9;
+    border-radius: 4px;
+    padding: 9px 16px;
+
+    border: none;
+
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+}

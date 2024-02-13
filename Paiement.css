@@ -1,0 +1,429 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*------------------------------------------------------------------*/
+
+header
+{
+  padding: 40px 60px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+}
+
+.titre
+{
+  color: #3563E9;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+/*------------------------------------------------------------------*/
+
+.content
+{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #F6F7F9;
+  width: 100%;
+  padding: 32px;
+}
+
+.Boite
+{
+  display: flex;
+  flex-direction: column;
+
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 24px 24px 27px 24px;
+}
+
+.sousBoite
+{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.sousBoite1
+{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.sousSousBoite
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sousSousSousBoite
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.boiteVoiture
+{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.nomVoiture
+{
+  display: flex;
+  align-items: center;
+
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.trait
+{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 1px solid #E0E9F4;
+}
+
+.titreBoite
+{
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.sousTitreBoite
+{
+  color: #90A3BF;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.sousTitreBoite1
+{
+  color: #90A3BF;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 33px;
+}
+
+.sousTitreBoite2
+{
+  color: #90A3BF;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.titreInput
+{
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.titreSousSousBoite
+{
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.titreSousSousBoite2
+{
+  margin-top: 35px;
+  margin-bottom: 24px;
+}
+
+.grosTitreInput
+{
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.inputText
+{
+  background: #FFFFFF;
+
+  box-sizing: border-box;
+
+  border: 1px solid #596780;
+  border-radius: 10px;
+
+  padding: 16px 32px;
+}
+
+.inputText::placeholder
+{
+  color: #90A3BF;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#inputTextPromo
+{
+  margin-bottom: 12px;
+
+  background: #FFFFFF;
+
+  box-sizing: border-box;
+
+  border: 1px solid #596780;
+  border-radius: 10px;
+
+  padding: 16px 32px;
+}
+
+.résumé
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.résuméInfo
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoTexte
+{
+  color: #90A3BF;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.infoPrix
+{
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.promoBoite
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.résuméBoite
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+
+.résuméPrixTexte
+{
+  color: #1A202C;
+
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.bouton
+{
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 9px 16px;
+
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+
+  border: 1px solid #596780;
+  border-radius: 4px;
+}
+
+.bouton2
+{
+  background: #3563E9;
+  border-radius: 4px;
+  padding: 13px 24px;
+
+  margin-top: 96px;
+
+  border: none;
+
+  color: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+/*------------------------------------------------------------------*/
+
+.radioBoite
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.radio
+{
+  background: #E0E9F4;
+  border-radius: 10px;
+
+  padding: 24px;
+  padding-bottom: 27px;
+}
+
+.radio input:checked ~ .infoCarteBoite
+{
+  display: flex;
+  flex-direction: column;
+
+  gap: 27px;
+
+  height: auto;
+  width: auto;
+}
+
+.infoCarteBoite
+{
+  display: flex;
+  flex-direction: column;
+
+  gap: 27px;
+}
+
+
+.sousBoiteInfoCarte
+{
+  display: flex;
+  flex-direction: row;
+
+  gap: 32px;
+
+  height: auto;
+  width: auto;
+}
+
+.radioBoiteTop
+{
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 32px;
+
+  justify-content: space-between;
+}
+
+.radioBoiteTop2
+{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.partieGauche
+{
+  display: flex;
+  flex-direction: row;
+
+  gap: 8px;
+}
+
+.titreInputRadio
+{
+  color: #1A202C;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+
+  align-items: center;
+}
+
+/*------------------------------------------------------------------*/
+
+.checkboxBoite
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.checkbox
+{
+  display: flex;
+  flex-direction: row;
+
+  gap: 22px;
+}

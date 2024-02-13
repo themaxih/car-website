@@ -1,0 +1,385 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">    
+  <title>Paiement</title>
+  <link rel="stylesheet" href="Paiement.css"/>    
+</head>
+
+<body>
+
+  <header>
+
+    <span class="titre">Voituragogo</span>
+
+  </header>
+
+  <div class="content">
+
+    <!--Informations personnelles-->
+
+    <div class="Boite">
+
+      <!--Changer les div des textes classiques par des span-->
+      <span class="titreBoite">Informations personnelles</span>
+      <span class="sousTitreBoite1">Merci de remplir vos informations personnelles</span>
+
+      <div class="sousBoite">
+
+        <div class="sousSousBoite">
+
+          <div class="sousSousSousBoite">
+
+            <!--Suivre ce modèle pour les autres trucs ( genre avec label et tout )-->
+            <label for="1" class="titreInput">Nom</label>
+            <input class="inputText" type="text" id="1" placeholder="Simon Strueux"> <!--Changer l'id car il doit être différent pour chaque input-->
+
+          </div>
+
+          <div class="sousSousSousBoite">
+  
+            <label for="2" class="titreInput">Adresse</label>
+            <input class="inputText" type="text" id="2" placeholder="2 rue de la poésie">
+
+          </div>
+  
+        </div>
+  
+        <div class="sousSousBoite">
+  
+          <div class="sousSousSousBoite">
+
+            <div for="3" class="titreInput">Numéro de téléphone</div>
+            <input class="inputText" type="text" id="3" placeholder="0123456789">
+
+          </div>
+
+          <div class="sousSousSousBoite">
+  
+            <div for="4" class="titreInput">Ville</div>
+            <input class="inputText" type="text" id="4" placeholder="Nantes">
+
+          </div>
+  
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Location-->
+
+    <div class="Boite">
+
+      <span class="titreBoite">Location</span>
+      <span class="sousTitreBoite">Merci de remplir les dates de location</span>
+
+        <div class="titreSousSousBoite">
+
+          <span class="grosTitreInput">Début de la location</span>
+  
+        </div>
+
+      <div class="autreBoite">  
+  
+        <div class="sousBoite">
+  
+          <div class="sousSousBoite">
+  
+            <div class="sousSousSousBoite">
+  
+              <!--Changer la balise input en select pour faire la liste de villes-->
+              <div for="5" class="titreInput">Ville</div>
+              <input class="inputText" type="text" id="5" placeholder="Simon Strueux">
+  
+            </div>
+  
+            <div class="sousSousSousBoite">
+    
+              <div for="6" class="titreInput">Heure</div>
+              <input class="inputText" type="time" id="6" placeholder="-- : --">
+  
+            </div>
+    
+          </div>
+    
+          <div class="sousSousBoite">
+    
+            <div class="sousSousSousBoite">
+  
+              <div for="7" class="titreInput">Date</div>
+              <input class="inputText" type="date" id="7" placeholder="jj / mm / aaaa">
+  
+            </div>
+    
+          </div>
+  
+        </div>
+
+      </div>
+
+        <div class="titreSousSousBoite2">
+
+          <span class="grosTitreInput">Fin de la location</span>
+  
+        </div>
+
+        <div class="sousBoite">
+  
+          <div class="sousSousBoite">
+  
+            <div class="sousSousSousBoite">
+  
+              <div for="8" class="titreInput">Ville</div>
+              <input class="inputText" type="text" id="8" placeholder="Simon Strueux">
+  
+            </div>
+  
+            <div class="sousSousSousBoite">
+    
+              <div for="9" class="titreInput">Heure</div>
+              <input class="inputText" type="time" id="9" placeholder="-- : --">
+  
+            </div>
+    
+          </div>
+    
+          <div class="sousSousBoite">
+    
+            <div class="sousSousSousBoite">
+  
+              <div for="10" class="titreInput">Date</div>
+              <input class="inputText" type="date" id="10" placeholder="jj / mm / aaaa">
+  
+            </div>
+    
+          </div>
+  
+        </div>
+
+    </div>
+
+    <!--Résumé de la location-->
+
+    <div class="Boite">
+
+      <div class="titreBoite">Résumé de la location</div>
+      <div class="sousTitreBoite1">Les prix peuvent changer selon la durée de la location et le prix de la voiture.</div>
+
+      <div class="sousBoite1">
+
+        <div class="imgRésumé"><img src="Images/Look.png"></div>
+        <div class="nomVoiture">Nissan GT - R</div>
+
+      </div>
+
+      <div class="trait"></div>
+
+      <div class="résumé">
+
+        <div class="résuméInfo">
+
+          <div class="infoTexte">Sous-total</div>
+          <div class="infoPrix">80€</div>
+
+        </div>
+
+        <div class="résuméInfo">
+
+          <div class="infoTexte">Taxes</div>
+          <div class="infoPrix">0€</div>
+
+        </div>
+
+      </div>
+
+      <div class="promoBoite">
+
+        <div class="titreInput">Code promo</div>
+
+        <input type="text" id="inputTextPromo" placeholder="XXXXXX">
+
+        <div class="boutonBoite">
+
+          <input class="bouton" type="button" value="Appliquer">
+
+        </div>
+
+      </div>
+
+      <div class="résuméBoite">
+
+        <div class="résuméTexteBoite">
+
+          <div class="titreBoite">Prix total</div>
+          <div class="sousTitreBoite2">Prix total incluant les remises</div>
+
+        </div>
+
+        <div class="résuméPrixBoite">
+
+          <div class="résuméPrixTexte">80€</div>
+          
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Méthode de paiement-->
+
+    <div class="Boite">
+
+      <div class="titreBoite">Méthode de paiement</div>
+      <div class="sousTitreBoite1">Merci de renseigner vos informations de paiement.</div>
+
+      <div class="radioBoite">
+
+        <div class="radio">
+
+          <div class="radioBoiteTop">
+
+            <div class="partieGauche">
+
+              <input type="radio" id="carteDeCrédit" name="cdd" checked>
+
+              <div class="titreInputRadio">Carte de crédit</div>
+
+            </div>
+
+            <div class="partieDroite">
+
+              <img src="Images/Visa.png" class="image">
+
+            </div>
+
+          </div>
+          
+          <div class="infoCarteBoite">
+
+            <div class="sousBoiteInfoCarte">
+
+              <div class="sousSousBoiteInfoCarte">
+                
+                <div class="titreInput">Numéro de carte</div>
+                <input type="text" id="inputText" placeholder="1234 5678 1234 5678">
+
+              </div>
+
+              <div class="sousSousBoiteInfoCarte">
+
+                <div class="titreInput">Date d'expiration</div>
+                <input type="text" id="inputText" placeholder="mm / aa">
+
+              </div>
+
+            </div>
+            
+            <div class="sousBoiteInfoCarte">
+
+              <div class="sousSousBoiteInfoCarte">
+
+                <div class="titreInput">Nom sur la carte</div>
+                <input type="text" id="inputText" placeholder="Simon Strueux">
+
+              </div>
+
+              <div class="sousSousBoiteInfoCarte">
+
+                <div class="titreInput">CVC</div>
+                <input type="text" id="inputText" placeholder="123">
+
+              </div>
+
+            </div> 
+
+          </div>
+
+        </div>
+
+        <div class="radio">
+
+          <div class="radioBoiteTop2">
+
+            <div class="partieGauche">
+
+              <input type="radio" id="carteDeCrédit" name="cdd">
+
+              <div class="titreInputRadio">PayPal</div>
+
+            </div>
+
+            <div class="partieDroite">
+
+              <img src="Images/PayPal.png" class="image">
+
+            </div>
+
+          </div>
+          
+        </div>
+
+        <div class="radio">
+
+          <div class="radioBoiteTop2">
+
+            <div class="partieGauche">
+
+              <input type="radio" id="carteDeCrédit" name="cdd">
+
+              <div class="titreInputRadio">Bitcoin</div>
+
+            </div>
+
+            <div class="partieDroite">
+
+              <img src="Images/Bitcoin.png" class="image">
+
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Confirmation-->
+
+    <div class="Boite">
+
+      <div class="titreBoite">Confirmation</div>
+      <div class="sousTitreBoite1">Nous arrivons vers la fin. Juste quelques clics et votre location est prête !</div>
+
+      <div class="checkboxBoite">
+
+        <div class="checkbox">
+
+          <input type="checkbox" id="carteDeCrédit" name="cdd">
+
+          <div class="titreInputRadio">J'accepte de recevoir des offres promotionnelles.</div>
+
+        </div>
+
+        <div class="checkbox">
+
+          <input type="checkbox" id="carteDeCrédit" name="cdd">
+
+          <div class="titreInputRadio">J'accepte les conditions de vente et la politique privée du site.</div>
+
+        </div>
+
+      </div>
+
+      <div class="boutonBoite">
+
+        <input class="bouton2" type="button" value="Louer">
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+</body>
